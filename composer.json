@@ -17,11 +17,11 @@
     ],
 	"autoload": {
 		"psr-4": {
-            "freesoftwarefactory\\yii2easychat\\assets\\" : "vendor/freesoftwarefactory/yii2-easychat/assets",
-            "freesoftwarefactory\\yii2easychat\\actions\\" : "vendor/freesoftwarefactory/yii2-easychat/actions",
-            "freesoftwarefactory\\yii2easychat\\interfaces\\" : "vendor/freesoftwarefactory/yii2-easychat/interfaces",
-            "freesoftwarefactory\\yii2easychat\\models\\" : "vendor/freesoftwarefactory/yii2-easychat/models",
-            "freesoftwarefactory\\yii2easychat\\widgets\\" : "vendor/freesoftwarefactory/yii2-easychat/widgets"
+            "freesoftwarefactory\\yii2easychat\\assets\\" : "assets",
+            "freesoftwarefactory\\yii2easychat\\actions\\" : "actions",
+            "freesoftwarefactory\\yii2easychat\\interfaces\\" : "interfaces",
+            "freesoftwarefactory\\yii2easychat\\models\\" : "models",
+            "freesoftwarefactory\\yii2easychat\\widgets\\" : "widgets"
 		}
 	}
 }
