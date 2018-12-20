@@ -4,7 +4,7 @@
     "type": "library",
     "license": "GPL-3.0",
     "require": {
-        "yiisoft/yii2": "2.0"
+        "yiisoft/yii2": "~2.0.0"
     },
     "support": {
         "issues": "https://github.com/freesoftwarefactory/yii2-easychat/issues"
