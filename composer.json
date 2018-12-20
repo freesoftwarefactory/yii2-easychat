@@ -1,0 +1,27 @@
+{
+    "name": "freesoftwarefactory/yii2-easychat",
+    "description": "a small abstract chat widget for yii framework 2 applications, jquery-based.",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "yiisoft/yii2": "2.0"
+    },
+    "support": {
+        "issues": "https://github.com/freesoftwarefactory/yii2-easychat/issues"
+    },
+    "authors": [
+        {
+            "name": "Christian Salazar",
+            "email": "christiansalazarh@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+            "freesoftwarefactory\\yii2easychat\\assets\\" : "vendor/freesoftwarefactory/yii2-easychat/assets",
+            "freesoftwarefactory\\yii2easychat\\actions\\" : "vendor/freesoftwarefactory/yii2-easychat/actions",
+            "freesoftwarefactory\\yii2easychat\\interfaces\\" : "vendor/freesoftwarefactory/yii2-easychat/interfaces",
+            "freesoftwarefactory\\yii2easychat\\models\\" : "vendor/freesoftwarefactory/yii2-easychat/models",
+            "freesoftwarefactory\\yii2easychat\\widgets\\" : "vendor/freesoftwarefactory/yii2-easychat/widgets"
+		}
+	}
+}
