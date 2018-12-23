@@ -64,7 +64,7 @@ class ChatWidget extends \yii\base\Widget
                 'clearSelector'=>$this->clearSelector,
 		    ]);
         
-        $this->view->registerJs("(new Yii2EasyChat($assetOptions)).run();");
+        $this->view->registerJs("(new Yii2EasyChat($assetOptions)).run();", \yii\web\View::POS_LOAD);
 
         return strtr($this->getMarkup(), 
             [
